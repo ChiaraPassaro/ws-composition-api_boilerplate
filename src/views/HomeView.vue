@@ -94,4 +94,32 @@ const emoji = [
   inline-size: 30rem;
   margin: 0 auto;
 }
+
+.wrapper {
+  inline-size: 30rem;
+  margin: 0 auto;
+}
+
+button {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  font-size: 2rem;
+}
+
+.status {
+  padding: 1rem;
+  border: 1px solid var(--color-text);
+  border-radius: 0.4rem;
+  button {
+    color: white;
+  }
+}
+
+.message {
+  margin-block-start: 0.5rem;
+  border-radius: 0.4rem;
+  background-color: var(--bg-message);
+  text-align: center;
+}
 </style>
